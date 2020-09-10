@@ -106,6 +106,7 @@ function togglePage(thisTab, attr) {
   });
 
   thisTab.classList.add("active-tab");
+  toggleMenu();
 }
 
 navHome.onclick = function () {
